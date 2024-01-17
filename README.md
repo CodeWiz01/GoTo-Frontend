@@ -1,1 +1,1 @@
-# GoTo-Frontend
+# GoToFrontend
