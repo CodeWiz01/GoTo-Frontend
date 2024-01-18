@@ -1,0 +1,19 @@
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(217,217,217);
+    border-radius: 12px;
+    text-transform: uppercase;
+    padding: 5px;
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 12px;
+    }
+}
+.active-link{
+    background-color: white;
+    color: black;
+}

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'GoTo-Frontend';
+  menuClosed:boolean=true;
+  constructor(){}
+  openMenu(){
+    this.menuClosed=!this.menuClosed;
+  }
 }
